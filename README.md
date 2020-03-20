@@ -1,19 +1,31 @@
 # Emoji Resources
 > Find services, add-ons and actual emojis to help with all your emoji needs
 
+
 ## About
 
 - [Emoji](https://en.wikipedia.org/wiki/Emoji) on Wikipedia.
-- [Full emoji list](https://unicode.org/emoji/charts/full-emoji-list.html) on [unicode.org](https://unicode.org) website.
 - [Emojis.wiki](https://emojis.wiki/)
     > Emoji Encyclopedia,
     >
     > a full collection of 📙 Emoji Meanings, 👨‍💻 Data, 🙅‍♀️🍕🍔🍟 Combinations, Emoji Art and more. Easy to Copy and Paste!
 - [Emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) :) and their corresponding emojis.
-- [Twitter emoji list](https://emojipedia.org/twitter/) on [emojipedia.org](https://emojipedia.org).
 
 
-## Services
+## Platforms
+
+If you are interested to compare emojis across platforms, I recommend going to [emojipedia.org/](https://emojipedia.org/) and see their platforms list at the bottom.
+
+Some links:
+
+- [Whatsapp emojis](https://emojipedia.org/whatsapp/)
+- [Twitter emojis](https://emojipedia.org/twitter/)
+- [Slack emojis](https://emojipedia.org/slack/) 
+    - Some are animations. Some are contributed by users and so do not follow a fixed standard.
+    - See also [Slackmojis](https://slackmojis.com/)
+
+
+## Emoji services
 
 Want to lookup emojis by category or search for emojis based on text? Use one of these.
 
@@ -27,13 +39,15 @@ This list is not curated, so I cannot guarantee the quality of these.
 
 As far as I can tell, those all produce unicode emojis which you can copy and paste across platforms.
 
+
 ## Unicode emojis
 
-Emojis are part of the unicode ranger of characters. They can be inserted as characters, platform independent. Though different operating systems and applications might have different images for each emoji specification.
+Emojis are part of the unicode range of characters. They can be inserted as characters, platform independent. Though different operating systems and applications might have different images for each emoji specification.
 
 e.g.
 
 - 😃
+
 
 Unicode characters including accented characters and emojis are suppored in Python 3. They can also be converted from unicode strings into bytes.
 
@@ -45,6 +59,8 @@ Unicode characters including accented characters and emojis are suppored in Pyth
 >>> '😃'.encode('utf-8')
 b'\xf0\x9f\x98\x83'
 ```
+
+- [Full emoji list](https://unicode.org/emoji/charts/full-emoji-list.html) on [unicode.org](https://unicode.org) website.
 
 
 ## Git emoji
@@ -81,6 +97,7 @@ Emoji guides for commit messages.
 - [gist](https://gist.github.com/parmentf/035de27d6ed1dce0b36a) by parmentf.
 - [Commit Message Emoji](https://github.com/dannyfritz/commit-message-emoji) repo by dannyfritz.
 - [gitmoji.carloscuesta.me](https://gitmoji.carloscuesta.me)
+
 
 ## Other
 
