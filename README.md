@@ -25,7 +25,7 @@ Some links:
     - See also [Slackmojis](https://slackmojis.com/)
 
 
-## Emoji services
+## Emoji search services
 
 Want to lookup emojis by category or search for emojis based on text? Use one of these.
 
@@ -65,7 +65,7 @@ b'\xf0\x9f\x98\x83'
 
 ## Git emoji
 
-### Markdown
+### Use git emojis in Github markdown
 
 Git supports emojis in markdown. These are down with a keyword between colons, similar to Slack. 
 
@@ -83,12 +83,14 @@ Git emojis cheatsheets
 - [gist](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c) by roachhd.
 - [gist](https://gist.github.com/rxaviers/7360908) by rxaviers.
 
-### Websites
+### Add Git emojis to your website
 
-Note that when using markdown on a website, you may have to add an extension. For example:
+While the Git emojis above render fine on Github markdown, some tools need a plugin to render emojis. 
 
-- [jekyll/jemoji](https://github.com/jekyll/jemoji) plugin for Jekyll.
-- [Emoji](https://docsify.now.sh/en/plugins?id=emoji) plugin for Docsify.
+For example:
+
+- [jekyll/jemoji](https://github.com/jekyll/jemoji) plugin for _Jekyll_.
+- [Emoji](https://docsify.now.sh/en/plugins?id=emoji) plugin for _DocsifyJS_.
 
 ### Git commit message emojis
 
