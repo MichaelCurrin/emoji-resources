@@ -83,16 +83,14 @@ Git emojis cheatsheets
 - [gist](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c) by roachhd.
 - [gist](https://gist.github.com/rxaviers/7360908) by rxaviers.
 
-### Add Git emojis to your website
+### Git emoji plugins for your website
 
 While the Git emojis above render fine on Github markdown, some tools need a plugin to render emojis. 
 
-For example:
-
-- [jekyll/jemoji](https://github.com/jekyll/jemoji) plugin for _Jekyll_.
+- [jekyll/jemoji](https://github.com/jekyll/jemoji) plugin for _Jekyll_. Available on [rubygems](https://rubygems.org/gems/jemoji/).
 - [Emoji](https://docsify.now.sh/en/plugins?id=emoji) plugin for _DocsifyJS_.
 
-### Git commit message emojis
+### Commit message emojis
 
 Emoji guides for commit messages.
 
