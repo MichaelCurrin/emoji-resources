@@ -98,6 +98,14 @@ Emoji guides for commit messages.
 - [Commit Message Emoji](https://github.com/dannyfritz/commit-message-emoji) repo by dannyfritz.
 - [gitmoji.carloscuesta.me](https://gitmoji.carloscuesta.me)
 
+## Jekyll
+
+Jekyll plugins related to emojis.
+
+- [jemoji](https://rubygems.org/gems/jemoji)
+    - Supported on Github Pages.
+- [emoji-for-jekyll](https://rubygems.org/gems/emoji_for_jekyll)
+    - Not on Github Pages supported list.
 
 ## Other
 
