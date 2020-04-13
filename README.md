@@ -102,10 +102,14 @@ Emoji guides for commit messages.
 
 Jekyll plugins related to emojis.
 
+Use with `:emoji_name:` notation. e.g. :bowtie:
+
 - [jemoji](https://rubygems.org/gems/jemoji)
     - Supported on Github Pages.
 - [emoji-for-jekyll](https://rubygems.org/gems/emoji_for_jekyll)
     - Not on Github Pages supported list.
+    - May not be kept up to date.
+    - See emojis listed in [emoji.json](https://github.com/yihangho/emoji-for-jekyll/blob/master/lib/emoji.json)
 
 ## Other
 
