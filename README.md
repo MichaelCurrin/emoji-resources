@@ -9,7 +9,7 @@
     > Emoji Encyclopedia,
     >
     > a full collection of 📙 Emoji Meanings, 👨‍💻 Data, 🙅‍♀️🍕🍔🍟 Combinations, Emoji Art and more. Easy to Copy and Paste!
-- [Emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) :) and their corresponding emojis.
+- [Emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) `:)` and their corresponding emojis.
 
 
 ## Platforms
@@ -36,6 +36,7 @@ This list is not curated, so I cannot guarantee the quality of these.
 - [GetEmoji](https://getemoji.com/)
 - [EmojiSearch](https://emojisearch.com/)
 - [EmojiFinder](https://emojifinder.com/)
+- [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 As far as I can tell, those all produce unicode emojis which you can copy and paste across platforms.
 
@@ -97,6 +98,15 @@ Emoji guides for commit messages.
 - [gist](https://gist.github.com/parmentf/035de27d6ed1dce0b36a) by parmentf.
 - [Commit Message Emoji](https://github.com/dannyfritz/commit-message-emoji) repo by dannyfritz.
 - [gitmoji.carloscuesta.me](https://gitmoji.carloscuesta.me)
+
+
+## IDE support
+
+- VS Code
+    - [Emoji log](https://marketplace.visualstudio.com/items?itemName=ahmadawais.emoji-log-vscode)
+        - Add emojis to your commit messages
+    - [Markdown emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
+        - There are a lot of similar extensions to this and this is just one I picked for a high rating.
 
 ## Jekyll
 
