@@ -14,15 +14,17 @@ s/fix:/🐛 fix:/g
 s/Initial commit$/🎉 Initial commit/g'
 ```
 
-You must use the convention for this to work.
+Example output:
 
-e.g.
-
-```sh
-git commit -m 'docs: Update README.md'
 ```
-
-This does not change how commits are stored.
+* a15457b Update development.md
+* 00e49b0 Create development.md
+* a400c64 ✨ feat: Update link layout
+* bb96ef5 (🔖 tag: v0.2.0) ✨ feat: Add to homepage
+* 715c4bd 📝 docs: Add to README.md
+* 3670bfb ✨ feat: Change theme to dark
+* 9720c96 🎉 Initial commit
+```
 
 
 ## Aliases
@@ -34,3 +36,17 @@ lol = log --graph --decorate --oneline
 ```sh
 git emoji = ! git lol | sed 's/docs:/📝 docs:/g'
 ```
+
+
+## Commit message style
+
+
+You must use the convention for this to work.
+
+e.g.
+
+```sh
+git commit -m 'docs: Update README.md'
+```
+
+This does not change how commits are stored.
