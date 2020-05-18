@@ -29,12 +29,15 @@ Example output:
 
 ## Aliases
 
+Add to git config under aliases.
+
 ```
 lol = log --graph --decorate --oneline
 ```
 
 ```sh
-git emoji = ! git lol | sed 's/docs:/📝 docs:/g'
+emoji = ! git lol | sed 's/docs:/📝 docs:/g
+...'
 ```
 
 
