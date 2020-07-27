@@ -10,6 +10,8 @@ This is unicode - contrast with GitHub emojis `:NAME:`.
 
 Here is a cheatsheet reference of a lot of emojis - filtered to ones that are more relevant and filtering out the obscure ones. The guide is not meant to be complete.
 
+I inserted these using a mobile device, following the sections and mostly sticking to the order of emojis as they appear. I split where there seemed like natural groupings.
+
 ### Faces and people 
 
 😀😃😄😁😆😅🤣😂🙂🙃😉😊😇
