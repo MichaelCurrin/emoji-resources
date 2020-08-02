@@ -64,9 +64,14 @@ b'\xf0\x9f\x98\x83'
 - [Full emoji list](https://unicode.org/emoji/charts/full-emoji-list.html) on [unicode.org](https://unicode.org) website.
 
 
+## GitHub
+
+See projects on GH relating to [#Emoji](https://github.com/topics/emoji).
+
+
 ## Git emoji
 
-### Use git emojis in Github markdown
+### Use git emojis in GitHub markdown
 
 Git supports emojis in markdown. These are down with a keyword between colons, similar to Slack. 
 
@@ -86,10 +91,22 @@ Git emojis cheatsheets
 
 ### Git emoji plugins for your website
 
-While the Git emojis above render fine on Github markdown, some tools need a plugin to render emojis. 
+While the Git emojis with format `:name:` and covered above render fine on plain GitHub markdown, some tools need a plugin to render emojis. 
 
-- [jekyll/jemoji](https://github.com/jekyll/jemoji) plugin for _Jekyll_. Available on [rubygems](https://rubygems.org/gems/jemoji/).
-- [Emoji](https://docsify.now.sh/en/plugins?id=emoji) plugin for _DocsifyJS_.
+Docsify plugins
+
+- [Emoji](https://docsify.now.sh/en/plugins?id=emoji)
+
+Jekyll plugins 
+
+- [jekyll/jemoji](https://github.com/jekyll/jemoji)
+    - Available on [rubygems](https://rubygems.org/gems/jemoji/).
+    - Supported on GitHub Pages.
+- [emoji-for-jekyll](https://rubygems.org/gems/emoji_for_jekyll)
+    - Not on Github Pages supported list.
+    - May not be kept up to date. The URL gets broken from a CDN. e.g. `https://github.global.ssl.fastly.net/images/icons/emoji/anchor.png`.
+    - See emojis listed in [emoji.json](https://github.com/yihangho/emoji-for-jekyll/blob/master/lib/emoji.json).
+
 
 ### Commit message emojis
 
@@ -98,6 +115,12 @@ Emoji guides for commit messages.
 - [gist](https://gist.github.com/parmentf/035de27d6ed1dce0b36a) by parmentf.
 - [Commit Message Emoji](https://github.com/dannyfritz/commit-message-emoji) repo by dannyfritz.
 - [gitmoji.carloscuesta.me](https://gitmoji.carloscuesta.me)
+
+
+## Other
+
+- [Emoji Screen](https://emojiscreen.com/) website. 
+    > A listing of movies, TV shows and musicals depicted through emojis. Click on the emojis to reveal the show or movie name!
 
 
 ## IDE support
@@ -112,21 +135,3 @@ Extensions
         - Add emojis to your commit messages
     - [Markdown emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
         - There are a lot of similar extensions to this and this is just one I picked for a high rating.
-
-## Jekyll
-
-Jekyll plugins related to emojis.
-
-Use with `:emoji_name:` notation. e.g. :bowtie:
-
-- [jemoji](https://rubygems.org/gems/jemoji)
-    - Supported on Github Pages.
-- [emoji-for-jekyll](https://rubygems.org/gems/emoji_for_jekyll)
-    - Not on Github Pages supported list.
-    - May not be kept up to date. The URL gets broken from a CDN. e.g. `https://github.global.ssl.fastly.net/images/icons/emoji/anchor.png`.
-    - See emojis listed in [emoji.json](https://github.com/yihangho/emoji-for-jekyll/blob/master/lib/emoji.json).
-
-## Other
-
-- [Emoji Screen](https://emojiscreen.com/) website. 
-    > A listing of movies, TV shows and musicals depicted through emojis. Click on the emojis to reveal the show or movie name!
