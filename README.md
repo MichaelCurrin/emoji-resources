@@ -137,6 +137,8 @@ Extensions
     - [Emoji git](https://github.com/benjaminadk/emojigit)
          - Add emojis to your commit messages
          - Emoji cheatsheet
+         - Based on gitmoji - using emojis for semantic commits like bug fixes
+         - See mapping in [index.js](https://github.com/benjaminadk/emojigit/blob/master/src/gitmojis/index.js)
     - [Emoji log](https://marketplace.visualstudio.com/items?itemName=ahmadawais.emoji-log-vscode)
         - Add emojis to your commit messages
     - [Markdown emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
