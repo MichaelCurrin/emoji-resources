@@ -1,8 +1,14 @@
 # Emoji Resources
 > Find services, add-ons and actual emojis to help with all your emoji needs
 
+> Emojis are a pictorial language used mainly in electronic messaging to express a variety of emotions, objects or ideas. [source](https://github.com/topics/emoji).
 
-## About
+They can be in the form of unicode characters which can be used in text files - including scripts and HTML pages. They can also be used in the GitHub context as `:name:` and then the result rendered in markdown.
+
+Note that the mapping of unicode codes to the symbols appears consistent across devices and browsers, but each platform can choose how to represent the image using more or less detail and color choice for example.
+
+
+## About emojis
 
 - [Emoji](https://en.wikipedia.org/wiki/Emoji) on Wikipedia.
 - [Emojis.wiki](https://emojis.wiki/)
