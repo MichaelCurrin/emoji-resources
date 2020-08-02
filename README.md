@@ -102,7 +102,12 @@ Emoji guides for commit messages.
 
 ## IDE support
 
+Extensions
+
 - VS Code
+    - [Emoji git](https://github.com/benjaminadk/emojigit)
+         - Add emojis to your commit messages
+         - Emoji cheatsheet
     - [Emoji log](https://marketplace.visualstudio.com/items?itemName=ahmadawais.emoji-log-vscode)
         - Add emojis to your commit messages
     - [Markdown emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
