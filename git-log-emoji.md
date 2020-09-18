@@ -18,7 +18,7 @@ git commit -m 'fix: Move variable'
 
 ## Command
 
-Here is one long multi-line command you can run. You can also wrap this to be on one line.
+Here is one long multi-line command you can run. It is not complete for all cases but you get the idea.
 
 ```sh
 git lol | sed 's/docs:/📝 docs:/g
@@ -56,11 +56,9 @@ Add the emoji command.
   emoji = "! git lol | sed 's/docs:/📝 docs:/g ; s/feat:/✨ feat:/g ; s/chore:/🔧 chore:/g ; s/tag:/🔖 tag:/g ; s/fix:/🐛 fix:/g ; s/Initial commit$/🎉 Initial commit/g'"
 ```
 
-Usage:
+Now use it.
 
 ```sh
 git emoji
 # Emoji log output appears...
 ```
-
-
