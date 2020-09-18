@@ -1,9 +1,24 @@
 # Git log emoji
+> Prettify a semantic commit git log with emojis
 
-When viewing git log in the command-line, read any semantic commit "leaders" (prefixes) and prepend an emoji. 
+When viewing git log in the command-line, this will read any semantic commit "leaders" (prefixes) and prepend an emoji.
+Even if you didn't use emojis originally, you get them how and you don't actually edit any commits by running this. 
 
+
+## Commit message style
+
+You must use the semvar convention for this to work.
+
+e.g.
+
+```sh
+git commit -m 'docs: Update README.md'
+git commit -m 'fix: Move variable'
+```
 
 ## Command
+
+Here is one long multi-line command you can run. You can also wrap this to be on one line.
 
 ```sh
 git lol | sed 's/docs:/📝 docs:/g
@@ -27,29 +42,25 @@ Example output:
 ```
 
 
-## Aliases
+## Alias
 
-Add to git config under aliases.
+Add to git config under alias.
 
+```toml
+  lol = "log --graph --decorate --oneline"
 ```
-lol = log --graph --decorate --oneline
+
+Add the emoji command.
+
+```toml
+  emoji = "! git lol | sed 's/docs:/📝 docs:/g ; s/feat:/✨ feat:/g ; s/chore:/🔧 chore:/g ; s/tag:/🔖 tag:/g ; s/fix:/🐛 fix:/g ; s/Initial commit$/🎉 Initial commit/g'"
 ```
+
+Usage:
 
 ```sh
-emoji = ! git lol | sed 's/docs:/📝 docs:/g
-...'
+git emoji
+# Emoji log output appears...
 ```
 
 
-## Commit message style
-
-
-You must use the convention for this to work.
-
-e.g.
-
-```sh
-git commit -m 'docs: Update README.md'
-```
-
-This does not change how commits are stored.
