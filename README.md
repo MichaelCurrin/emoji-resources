@@ -5,7 +5,7 @@
 
 They can be in the form of unicode characters which can be used in text files - including scripts and HTML pages. They can also be used in the GitHub context as `:name:` and then the result rendered in markdown.
 
-Note that the mapping of unicode codes to the symbols appears consistent across devices and browsers, but each platform can choose how to represent the image using more or less detail and color choice for example.
+Note that the mapping of unicode codes to the symbols appears consistent across devices and browsers, but each platform can choose _how_ to represent the image such as using more or less detail and color choices.
 
 
 ## About emojis
@@ -19,34 +19,6 @@ Note that the mapping of unicode codes to the symbols appears consistent across 
 
 
 For interest, see this blog post - [Emoji skin modifier handshake](https://thenextweb.com/shareables/2020/08/12/emoji-skin-tone-modifier-handshake/). Aside from the skin color emojis discussed, this gives insight into how emoji/unicode standards are defined and implemented. Plus mention of nett new emojis or variations on existing ones, which is a reminder that emojis are not fixed.
-
-## Platforms
-
-If you are interested to compare emojis across platforms, I recommend going to [emojipedia.org/](https://emojipedia.org/) and see their platforms list at the bottom.
-
-Some links:
-
-- [Whatsapp emojis](https://emojipedia.org/whatsapp/)
-- [Twitter emojis](https://emojipedia.org/twitter/)
-- [Slack emojis](https://emojipedia.org/slack/) 
-    - Some are animations. Some are contributed by users and so do not follow a fixed standard.
-    - See also [Slackmojis](https://slackmojis.com/)
-
-
-## Emoji search services
-
-Want to lookup emojis by category or search for emojis based on text? Use one of these.
-
-This list is not curated, so I cannot guarantee the quality of these.
-
-- [EmojiKeyboard.io](https://emojikeyboard.io/)
-- [EmojiPedia](https://emojipedia.org/)
-- [GetEmoji](https://getemoji.com/)
-- [EmojiSearch](https://emojisearch.com/)
-- [EmojiFinder](https://emojifinder.com/)
-- [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
-
-As far as I can tell, those all produce unicode emojis which you can copy and paste across platforms.
 
 
 ## Unicode emojis
@@ -69,12 +41,48 @@ Unicode characters including accented characters and emojis are suppored in Pyth
 b'\xf0\x9f\x98\x83'
 ```
 
+
+## View and search emojis
+
+### List
+
 - [Full emoji list](https://unicode.org/emoji/charts/full-emoji-list.html) on [unicode.org](https://unicode.org) website.
+- [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) on WebFx.
+
+### By platform
+
+If you are interested to compare emojis across platforms, I recommend going to [emojipedia.org/](https://emojipedia.org/) and see their platforms list at the bottom.
+
+Some links:
+
+- _Emojipedia_
+    - [Whatsapp emojis](https://emojipedia.org/whatsapp/)
+    - [Twitter emojis](https://emojipedia.org/twitter/)
+    - [Slack emojis](https://emojipedia.org/slack/) 
+        - Some are animations. Some are contributed by users and so do not follow a fixed standard.
+        - See also [Slackmojis](https://slackmojis.com/)
+
+### Emoji search services
+
+Want to lookup emojis by category or search for emojis based on text? Use one of these.
+
+This list is not curated, so I cannot guarantee the quality of these.
+
+- [EmojiKeyboard.io](https://emojikeyboard.io/)
+- [EmojiPedia](https://emojipedia.org/)
+- [GetEmoji](https://getemoji.com/)
+- [EmojiSearch](https://emojisearch.com/)
+- [EmojiFinder](https://emojifinder.com/)
+- [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+
+As far as I can tell, those all produce unicode emojis which you can copy and paste across platforms.
 
 
-## GitHub
+### GitHub
 
 See projects on GH relating to [#Emoji](https://github.com/topics/emoji).
+
+See [/emojis](https://api.github.com/emojis) endpoint on the REST API. Lists all emojis as PNGs e.g. [1f4af.png?v8](https://github.githubassets.com/images/icons/emoji/unicode/1f4af.png?v8)
 
 
 ## Git emoji
@@ -92,10 +100,12 @@ e.g.
         :bowtie
         ```
 
-Git emojis cheatsheets
+Git emoji cheatsheets:
 
 - [gist](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c) by roachhd.
 - [gist](https://gist.github.com/rxaviers/7360908) by rxaviers.
+- [ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+    > This cheat sheet is automatically generated from GitHub Emoji API and Unicode Full Emoji List.
 
 ### Git emoji plugins for your website
 
@@ -114,7 +124,6 @@ Jekyll plugins
     - Not on Github Pages supported list.
     - May not be kept up to date. The URL gets broken from a CDN. e.g. `https://github.global.ssl.fastly.net/images/icons/emoji/anchor.png`.
     - See emojis listed in [emoji.json](https://github.com/yihangho/emoji-for-jekyll/blob/master/lib/emoji.json).
-
 
 ### Commit message emojis
 
