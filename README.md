@@ -77,61 +77,11 @@ This list is not curated, so I cannot guarantee the quality of these.
 
 As far as I can tell, those all produce unicode emojis which you can copy and paste across platforms.
 
-
 ### GitHub
 
 See projects on GH relating to [#Emoji](https://github.com/topics/emoji).
 
 See [/emojis](https://api.github.com/emojis) endpoint on the REST API. Lists all emojis as PNGs e.g. [1f4af.png?v8](https://github.githubassets.com/images/icons/emoji/unicode/1f4af.png?v8)
-
-
-## Git emoji
-
-### Use git emojis in GitHub markdown
-
-Git supports emojis in markdown. These are down with a keyword between colons, similar to Slack. 
-
-e.g.
-
-- Bowtie
-    - Rendered: :bowtie:
-    - Markdown:
-        ```markdown
-        :bowtie
-        ```
-
-Git emoji cheatsheets:
-
-- [gist](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c) by roachhd.
-- [gist](https://gist.github.com/rxaviers/7360908) by rxaviers.
-- [ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
-    > This cheat sheet is automatically generated from GitHub Emoji API and Unicode Full Emoji List.
-
-### Git emoji plugins for your website
-
-While the Git emojis with format `:name:` and covered above render fine on plain GitHub markdown, some tools need a plugin to render emojis. 
-
-Docsify plugins
-
-- [Emoji](https://docsify.now.sh/en/plugins?id=emoji)
-
-Jekyll plugins 
-
-- [jekyll/jemoji](https://github.com/jekyll/jemoji)
-    - Available on [rubygems](https://rubygems.org/gems/jemoji/).
-    - Supported on GitHub Pages.
-- [emoji-for-jekyll](https://rubygems.org/gems/emoji_for_jekyll)
-    - Not on Github Pages supported list.
-    - May not be kept up to date. The URL gets broken from a CDN. e.g. `https://github.global.ssl.fastly.net/images/icons/emoji/anchor.png`.
-    - See emojis listed in [emoji.json](https://github.com/yihangho/emoji-for-jekyll/blob/master/lib/emoji.json).
-
-### Commit message emojis
-
-Emoji guides for commit messages.
-
-- [gist](https://gist.github.com/parmentf/035de27d6ed1dce0b36a) by parmentf.
-- [Commit Message Emoji](https://github.com/dannyfritz/commit-message-emoji) repo by dannyfritz.
-- [gitmoji.carloscuesta.me](https://gitmoji.carloscuesta.me)
 
 
 ## Other
