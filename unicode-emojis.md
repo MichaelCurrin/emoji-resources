@@ -10,7 +10,9 @@ This is unicode - contrast with GitHub emojis `:NAME:`.
 
 Here is a cheatsheet reference of a lot of emojis. I've made this shorter than the full list, to keep it more relevant for me and less noisy and obscure. The guide is not meant to be complete.
 
-I inserted these using a mobile device, following the sections and mostly sticking to the order of emojis as they appear. I split where there seemed like natural groupings.
+I inserted these using my mobile device's emoji keyboard, following the sections and mostly sticking to the order of emojis as they appear. I split where there seemed like natural groupings.
+
+Note that some emojis in WhatsApp do not render in the browser.
 
 ### Faces and people 
 
@@ -40,15 +42,15 @@ I inserted these using a mobile device, following the sections and mostly sticki
 
 🙈🙉🙊
 
-💋💌💘💝💖💗💓💔❤🧡💛💚💙💜❤🖤
-
-💯💢💥💫💦💨🕳💣
-
-💬🗨🗯💭💤
+#### Gestures
 
 👋🤚🖐✋🖖👌🤏✌🤞🤘🤙👈👉👆👇☝️👍👎✊👊🤛🤜
 
 🙌🤝🙏
+
+🤦‍♂️🤦‍♀️🤷‍♂️🤷‍♀️
+
+#### Parts
 
 ✍💅🤳💪
 
@@ -56,13 +58,25 @@ I inserted these using a mobile device, following the sections and mostly sticki
 
 🧠🦷🦴👀👁👅👄
 
-🤦‍♂️🤦‍♀️🤷‍♂️🤷‍♀️
+#### Professions
 
 👨‍⚕️👨‍🏫👨‍⚖️👨‍🌾👨‍🍳👨‍🔧👨‍🏭👨‍💼👨‍🔬👨‍💻👨‍🎤👨‍🎨👨‍✈️👨‍🚀👨‍🚒👮‍♂️🕵️‍♂️💂‍♂️👷‍♂️🤴👳‍♂️👲🤵🎅🧙‍♀️🧙‍♂️
 
+#### Activities
+
 🏄‍♂️🏊‍♂️🏋️‍♂️🤹‍♂️🧘‍♀️🛀🛌
 
+### Symbols
+
+💋💌💘💝💖💗💓💔❤🧡💛💚💙💜❤🖤
+
+💯💢💥💫💦💨🕳💣
+
+💬🗨🗯💭💤
+
 ### Nature
+
+#### Animals
 
 🐵🐒🦍🦧
 
@@ -92,6 +106,80 @@ I inserted these using a mobile device, following the sections and mostly sticki
 
 🦠
 
+#### Plants
+
 💐🌸🏵🌹🥀🌺🌻🌼🌷⚘
 
 🌱🌲🌳🌴🌵🌾🌿☘🍀🍁🍂🍃
+
+### Food
+
+🍇🍉🍊🍋🍌🍍🥭🍎🍏🍐🍑🍒🍓🥝🍅🥥🥑
+
+🍆🥔🥕🌽🌶🥒🥬🥦🧄🧅
+
+🍄🥜🌰
+
+🍞🥐🥖🥨🥯🥞🧇🧀
+
+🍖🍗🥩🥓🍔🍟🍕🌭🥪🌮🌯🥙🧆🥚🍳
+
+🥘🍲🥣🥗
+
+🍿🧈🧂🥫🍱🍘🍙🍚🍛🍜🍝🍠
+
+🍣🍤🥠🥡
+
+🦀🦞🦐🦑
+
+🍦🍧🍨🍩🍪🎂🎂🍰🧁
+
+🥧
+
+🍫🍬🍭
+
+🍮
+
+🍯
+
+🍼🥛☕🍵
+
+🍾🍷🍸🍹🍺🍻🥂🥃
+
+🥤🧃🧊
+
+🥢🍽🍴🥄🔪
+
+🏺
+
+### Planet
+
+#### Geography
+
+🌍🗺🧭🏔
+
+...
+
+#### Transport 
+
+🚂
+
+...
+
+#### Weather
+
+🌛🌧
+
+...
+
+### Events
+
+🎃🎄
+
+...
+
+#### Games
+
+🎮♟🎨
+
+...
