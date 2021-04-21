@@ -1,12 +1,13 @@
 # Git log emoji
 > Prettify a conventional commit git log with emojis
 
-Run this tool as an alternative to `git log`.
+## Features
 
-You'll get an emoji inserted before any conventional commit leader (prefixes).
-
+- Run this tool as an alternative to `git log`.
+- You'll get an emoji inserted before any conventional commit leader (prefixes).
 - Works on any git repo with at least one conventional commit message.
 - Safe and non-destructive. This only affects your viewing output and doesn't change the commits.
+- Simply copy and paste code to your git config. Now need to install a tool or set up a shell script.
 
 
 ## Commit message style
@@ -39,7 +40,9 @@ See [Gitmoji](https://gitmoji.dev/) site for a guide to choosing emojis, so you 
 
 For Bash or Linux, using `sed` to find and replace.
 
-Here is a long multi-line command you can run. It is not complete for all cases but you get the idea.
+Here is a long multi-line command you can run. 
+
+It is not complete for all cases, but you get the idea.
 
 ```sh
 git lol | sed 's/docs:/📝 docs:/g
