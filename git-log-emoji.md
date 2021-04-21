@@ -3,11 +3,11 @@
 
 ## Features
 
-- Run this tool as an alternative to `git log`.
+- Run this tool as an alternative to `git log`, whenever you need to.
 - You'll get an emoji inserted before any conventional commit leader (prefixes).
 - Works on any git repo with at least one conventional commit message.
 - Safe and non-destructive. This only affects your viewing output and doesn't change the commits.
-- Simply copy and paste code to your git config. Now need to install a tool or set up a shell script.
+- Simply copy and paste code to your git config. Easy to change later. No need to install a tool or set up a shell script.
 
 
 ## Commit message style
