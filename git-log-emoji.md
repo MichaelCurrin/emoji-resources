@@ -1,28 +1,41 @@
 # Git log emoji
 > Prettify a conventional commit git log with emojis
 
-When viewing your git log in the command-line, this tool will read any conventional commit "leader" (prefix) keywords and prepend an emoji.
+Run this tool as an alternative to `git log`.
 
-This only affects your viewing output and doesn't change the commits.
+You'll get an emoji inserted before any conventional commit leader (prefixes).
+
+- Works on any git repo with at least one conventional commit message.
+- Safe and non-destructive. This only affects your viewing output and doesn't change the commits.
 
 
 ## Commit message style
 
-This works on any git project where you used conventional commit leaders in some or all of the commits.
+### Write conventianl commits
 
-See [Conventional Commits](https://www.conventionalcommits.org/) homepage.
-
-For example:
-
-e.g.
+For example, write commit messages like these.
 
 ```sh
-git commit -m 'docs: Update README.md'
-git commit -m 'fix: Move variable'
+docs: Update README.md
+fix: Rename variable
 ```
 
+See [Conventional Commits](https://www.conventionalcommits.org/) homepage to learn more on writing commits.
 
-## Run a command
+
+### Add emojis
+
+We want to automate displaying messages as:
+
+```sh
+📝 docs: Update README.md
+🐛 fix: Rename variable
+```
+
+See [Gitmoji](https://gitmoji.dev/) site for a guide to choosing emojis, so you are following a standard.
+
+
+## The command to run
 
 For Bash or Linux, using `sed` to find and replace.
 
@@ -37,7 +50,7 @@ s/fix:/🐛 fix:/g
 s/Initial commit$/🎉 Initial commit/g'
 ```
 
-Example output:
+Example output from that command, with emojis inserted by the command.
 
 ```
 * a15457b Update development.md
