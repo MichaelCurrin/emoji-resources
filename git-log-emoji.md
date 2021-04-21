@@ -5,12 +5,14 @@ When viewing your git log in the command-line, this tool will read any conventio
 
 This only affects your viewing output and doesn't change the commits.
 
-This works on any git project where you used conventional commit leaders in some or all of the commits.
-
 
 ## Commit message style
 
-You must use the semvar convention for this to work.
+This works on any git project where you used conventional commit leaders in some or all of the commits.
+
+See [Conventional Commits](https://www.conventionalcommits.org/) homepage.
+
+For example:
 
 e.g.
 
@@ -48,18 +50,19 @@ Example output:
 ```
 
 
-## Setup an alias
+## Set up an alias
 
 To make is easier to use the command above any time, you can add it to your git aliases in `~/.gitconfig`.
 
 Add to your git config under `[alias]` section.
 
 This shows a commit message in a single line and adds a tree flow for use with branches. No emojis yet.
+
 ```toml
   lol = "log --graph --decorate --oneline"
 ```
 
-Now the emoji command as an alias too. This will use `lol` as defined above.
+Now set the emoji command as an alias too. This will use `lol` as defined above.
 
 ```toml
   emoji = "! git lol | sed 's/docs:/📝 docs:/g ; s/feat:/✨ feat:/g ; s/chore:/🔧 chore:/g ; s/tag:/🔖 tag:/g ; s/fix:/🐛 fix:/g ; s/Initial commit$/🎉 Initial commit/g'"
@@ -75,5 +78,9 @@ git emoji
 ```
 * a15457b Update development.md
 * 00e49b0 Create development.md
-...
+* a400c64 ✨ feat: Update link layout
+* bb96ef5 (🔖 tag: v0.2.0) ✨ feat: Add to homepage
+* 715c4bd 📝 docs: Add to README.md
+* 3670bfb ✨ feat: Change theme to dark
+* 9720c96 🎉 Initial commit
 ```
