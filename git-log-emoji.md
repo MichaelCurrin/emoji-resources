@@ -125,7 +125,7 @@ This shows a commit message in a single line and adds a tree flow for use with b
   lol = "log --graph --decorate --oneline"
 ```
 
-Now set the emoji command as an alias too. This will use call `lol` as defined above and then do the replacement.
+Now set the emoji command as an alias too. This will use call `lol` as defined above and then do the replacement. We use a TOML heredoc (multi-line string), which involves both escaping line breaks (which allows wrapping but also flattens _everything_ to one line) and adding in semicolons to split out replacement rules.
 
 ```toml
 [alias]
