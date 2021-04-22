@@ -10,50 +10,56 @@
 - Simply copy and paste code to your git config. Easy to change later. No need to install a tool or set up a shell script.
 
 
+## Resources
+
+- [Conventional Commits](https://www.conventionalcommits.org/) homepage - to learn more on writing Conventional Commits messages. The _Summary_ section covers the prefixes used here.
+- [Type](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type) on Angular repo. This is linked from the Conventional Commits website as "Angular Convention" and explains what `build` etc. means.
+- [Gitmoji](https://gitmoji.dev/) site - for a standard of using emojis in commits. That page is _very_ detailed and the emojis don't all map to Conventional Commit standard, so I won't try and cover them all here.
+
+
 ## Commit message style
 
 ### Write conventianl commits
 
-For example, write commit messages like these.
+This guide expects you to write commit messages like these.
 
 ```sh
 docs: Update README.md
 fix: Rename variable
 ```
 
-See [Conventional Commits](https://www.conventionalcommits.org/) homepage to learn more on writing commits.
-
-
 ### Add emojis
 
-We want to automate displaying messages as:
+Then we'll use a command to turn the above into this:
 
 ```sh
 📝 docs: Update README.md
 🐛 fix: Rename variable
 ```
 
-See [Gitmoji](https://gitmoji.dev/) site for a guide to choosing emojis, so you are following a standard.
-
 
 ## The command to run
 
 For Bash or Linux, using `sed` to find and replace.
 
-Here is a long multi-line command you can run. 
-
-It is not complete for all cases, but you get the idea.
+Here is a long multi-line command you can copy and paste. Prevent going through the _entire_ git log, I've limited to the most recent 20 commits.
 
 ```sh
-git lol | sed 's/docs:/📝 docs:/g
-s/feat:/✨ feat:/g
-s/chore:/🔧 chore:/g
-s/tag:/🔖 tag:/g
+git lol -20 | sed 's/feat:/✨ feat:/g
 s/fix:/🐛 fix:/g
+s/build:/👷‍♂️ build:/g
+s/chore:/🔧 chore:/g
+s/ci:/🔧 ci:/g
+s/docs:/📝 docs:/g
+s/refactor:/♻️ refactor:/g
+s/perf:/⚡️ perf:/g
+s/style:/🎨 style:/g
+s/test:/✅ test:/g
+s/tag:/🔖 tag:/g
 s/Initial commit$/🎉 Initial commit/g'
 ```
 
-Example output from that command, with emojis inserted by the command.
+Example output with emojis inserted:
 
 ```
 * a15457b Update development.md
@@ -63,6 +69,45 @@ Example output from that command, with emojis inserted by the command.
 * 715c4bd 📝 docs: Add to README.md
 * 3670bfb ✨ feat: Change theme to dark
 * 9720c96 🎉 Initial commit
+```
+
+Notes:
+
+- See use of one `sed` call that uses newlines to separate rules. Or you can do it in one line using semicolons.
+- Use of colons in the rule like `ci:` means if `ci` appears not as a prefix but in the middle of your message, it won't get affectd.
+- For prefixes.
+    - I've followed the Convetional Commit website's _Summary_ section.
+    - Then added some non-standard ones that make sense to me.
+    - The `chore` prefix is not actually in the Angular Convention. 
+    - You might consider dependency changes as part of your "build system" and so use `build:` as a prefix like I do.
+- Character encoding.
+    - Don't worry if the text looks weird in your console or editor e.g. `👷<200d>` for build and `⚡<fe0f>` for perf. The command output still looks correct.
+- For emojis, here isn't a clean mapping for some prefixes.
+    - There are multiple `ci` emojis.
+    - For `chore`, as it depends on the context. With a smarter system looking at the rest of the message, one of these could be used.
+        - `🔥` for `Remove code or files.` 
+        -  `🔧` for `Add or update configuration files.`.
+        -  `🚚` for `Move or rename resources (e.g.: files, paths, routes).`
+    - There also multiple dependency-related emojis, so it was easiest to just use construction emoji.
+
+<!-- TODO turn this into a non-code mapping cheatsheet -->
+
+<!-- TODO add support for one-word commits like "style" or "docs" -->
+
+<!-- TODO add support for Update x -->
+
+<!-- TODO add support for recognized extension - need grouping to add it back and that gets messy or not possible in sed . e.g. Update ...yml - or use Auto Commit -->
+
+<!-- TODO :emoji: sub for emoji -->
+
+If you want to test that without `git`:
+
+```sh
+echo 'perf: abc' | sed 's/feat:/✨ feat:/g
+s/perf:/⚡<fe0f> perf:/g
+```
+```
+⚡️ perf: abc
 ```
 
 
@@ -78,11 +123,13 @@ This shows a commit message in a single line and adds a tree flow for use with b
   lol = "log --graph --decorate --oneline"
 ```
 
-Now set the emoji command as an alias too. This will use `lol` as defined above.
+Now set the emoji command as an alias too. This will use call `lol` as defined above and then do the replacement.
 
 ```toml
   emoji = "! git lol | sed 's/docs:/📝 docs:/g ; s/feat:/✨ feat:/g ; s/chore:/🔧 chore:/g ; s/tag:/🔖 tag:/g ; s/fix:/🐛 fix:/g ; s/Initial commit$/🎉 Initial commit/g'"
 ```
+
+Note - this alias is note complete yet as misses some items until I update it.
 
 Save the config.
 
