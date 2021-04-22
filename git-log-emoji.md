@@ -128,10 +128,21 @@ This shows a commit message in a single line and adds a tree flow for use with b
 Now set the emoji command as an alias too. This will use call `lol` as defined above and then do the replacement.
 
 ```toml
-  emoji = "! git lol | sed 's/docs:/📝 docs:/g ; s/feat:/✨ feat:/g ; s/chore:/🔧 chore:/g ; s/tag:/🔖 tag:/g ; s/fix:/🐛 fix:/g ; s/Initial commit$/🎉 Initial commit/g'"
+[alias]
+    emoji = """! git lol -20 | sed 's/feat:/✨ feat:/g ; \
+		s/fix:/🐛 fix:/g ; \
+		s/build:/👷‍♂️ build:/g ; \
+		s/chore:/🧽 chore:/g ; \
+		s/ci:/🔧 ci:/g ; \
+		s/docs:/📝 docs:/g ; \
+		s/refactor:/♻️ refactor:/g ; \
+		s/perf:/⚡️ perf:/g ; \
+		s/style:/🎨 style:/g ; \
+		s/test:/✅ test:/g ; \
+		s/tag:/🔖 tag:/g ; \
+		s/Initial commit$/🎉 Initial commit/g' \
+	"""
 ```
-
-Note - this alias is note complete yet as misses some items until I update it.
 
 Save the config.
 
