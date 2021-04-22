@@ -48,7 +48,7 @@ Here is a long multi-line command you can copy and paste. Prevent going through 
 git lol -20 | sed 's/feat:/✨ feat:/g
 s/fix:/🐛 fix:/g
 s/build:/👷‍♂️ build:/g
-s/chore:/🔧 chore:/g
+s/chore:/🧽 chore:/g
 s/ci:/🔧 ci:/g
 s/docs:/📝 docs:/g
 s/refactor:/♻️ refactor:/g
@@ -84,10 +84,12 @@ Notes:
     - Don't worry if the text looks weird in your console or editor e.g. `👷<200d>` for build and `⚡<fe0f>` for perf. The command output still looks correct.
 - For emojis, here isn't a clean mapping for some prefixes.
     - There are multiple `ci` emojis.
-    - For `chore`, as it depends on the context. With a smarter system looking at the rest of the message, one of these could be used.
-        - `🔥` for `Remove code or files.` 
-        -  `🔧` for `Add or update configuration files.`.
-        -  `🚚` for `Move or rename resources (e.g.: files, paths, routes).`
+    - For `chore`, as it depends on the context. 
+        - I used `🧽` for general cleaning chore. Or `🧹` could work too. 
+        - With a smarter system looking at the rest of the message, one of these could be used:
+            - `🔥` for `Remove code or files.` 
+            -  `🔧` for `Add or update configuration files.`.
+            -  `🚚` for `Move or rename resources (e.g.: files, paths, routes).`
     - There also multiple dependency-related emojis, so it was easiest to just use construction emoji.
 
 <!-- TODO turn this into a non-code mapping cheatsheet -->
