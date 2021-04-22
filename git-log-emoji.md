@@ -1,5 +1,6 @@
 # Git log emoji
-> Prettify a conventional commit git log with emojis
+> View your Conventional Commit log messages with emojis added
+
 
 ## Features
 
