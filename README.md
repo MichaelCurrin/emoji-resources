@@ -41,6 +41,8 @@ Unicode characters including accented characters and emojis are suppored in Pyth
 b'\xf0\x9f\x98\x83'
 ```
 
+See my [Python Strings](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/python/strings/) cheatsheet for more info.
+
 
 ## Other
 
