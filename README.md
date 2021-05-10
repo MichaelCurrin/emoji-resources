@@ -7,6 +7,15 @@
 
 Markdown files with info and links around emojis, especially for use in programming.
 
+## Website
+
+<div align="center">
+
+[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://michaelcurrin.github.io/emoji-resources/)
+
+</div>
+
+
 
 ## License
 
