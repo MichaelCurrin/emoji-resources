@@ -48,19 +48,3 @@ See my [Python Strings](https://michaelcurrin.github.io/dev-cheatsheets/cheatshe
 
 - [Emoji Screen](https://emojiscreen.com/) website. 
     > A listing of movies, TV shows and musicals depicted through emojis. Click on the emojis to reveal the show or movie name!
-
-
-## IDE support
-
-Extensions
-
-- VS Code
-    - [Emoji git](https://github.com/benjaminadk/emojigit)
-         - Add emojis to your commit messages
-         - Emoji cheatsheet
-         - Based on gitmoji - using emojis for semantic commits like bug fixes
-         - See mapping in [index.js](https://github.com/benjaminadk/emojigit/blob/master/src/gitmojis/index.js)
-    - [Emoji log](https://marketplace.visualstudio.com/items?itemName=ahmadawais.emoji-log-vscode)
-        - Add emojis to your commit messages
-    - [Markdown emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
-        - There are a lot of similar extensions to this and this is just one I picked for a high rating.
