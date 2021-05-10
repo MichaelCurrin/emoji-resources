@@ -1,4 +1,4 @@
-# Emoji Resources
+# Emoji Resources 🤓 📚
 > Find services, add-ons and actual emojis to help with all your emoji needs
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/emoji-resources?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/emoji-resources/releases/)
