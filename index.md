@@ -11,6 +11,6 @@
         {{ p.title }}
     </a>
 </li>
-{% endfor %}
 {% endunless %}
+{% endfor %}
 </ul>
