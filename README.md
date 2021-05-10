@@ -26,6 +26,11 @@ A website info and links around emojis, especially for use in programming.
 </div>
 
 
+## Contributing
+
+Contributions are welcome. Fork the repo and make a branch, then submit your fix or addition under [Pull Requests](https://github.com/MichaelCurrin/emoji-resources/pulls).
+
+
 ## License
 
 Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
