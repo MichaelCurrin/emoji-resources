@@ -12,7 +12,7 @@ A website info and links around emojis, especially for use in programming.
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/emoji-resources/">
-        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="600" />
     </a>
 </div>
 
@@ -24,7 +24,6 @@ A website info and links around emojis, especially for use in programming.
 [![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://michaelcurrin.github.io/emoji-resources/)
 
 </div>
-
 
 
 ## License
