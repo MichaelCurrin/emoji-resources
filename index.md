@@ -5,10 +5,12 @@
 
 <ul>
 {% for p in pages %}
+{% unless page == p %}
 <li>
     <a href="{{ p.url | relative_url }}">
         {{ p.title }}
     </a>
 </li>
 {% endfor %}
+{% endunless %}
 </ul>
