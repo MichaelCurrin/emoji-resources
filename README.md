@@ -1,50 +1,13 @@
 # Emoji Resources
 > Find services, add-ons and actual emojis to help with all your emoji needs
 
-> Emojis are a pictorial language used mainly in electronic messaging to express a variety of emotions, objects or ideas. [source](https://github.com/topics/emoji).
-
-They can be in the form of unicode characters which can be used in text files - including scripts and HTML pages. They can also be used in the GitHub context as `:name:` and then the result rendered in markdown.
-
-Note that the mapping of unicode codes to the symbols appears consistent across devices and browsers, but each platform can choose _how_ to represent the image such as using more or less detail and color choices.
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/emoji-resources?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/emoji-resources/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 
-## About emojis
-
-- [Emoji](https://en.wikipedia.org/wiki/Emoji) on Wikipedia.
-- [Emojis.wiki](https://emojis.wiki/)
-    > Emoji Encyclopedia,
-    >
-    > a full collection of 📙 Emoji Meanings, 👨‍💻 Data, 🙅‍♀️🍕🍔🍟 Combinations, Emoji Art and more. Easy to Copy and Paste!
-- [Emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) `:)` and their corresponding emojis.
+Markdown files with info and links around emojis, especially for use in programming.
 
 
-For interest, see this blog post - [Emoji skin modifier handshake](https://thenextweb.com/shareables/2020/08/12/emoji-skin-tone-modifier-handshake/). Aside from the skin color emojis discussed, this gives insight into how emoji/unicode standards are defined and implemented. Plus mention of nett new emojis or variations on existing ones, which is a reminder that emojis are not fixed.
+## License
 
-
-## Unicode emojis
-
-Emojis are part of the unicode range of characters. They can be inserted as characters, platform independent. Though different operating systems and applications might have different images for each emoji specification.
-
-e.g.
-
-- 😃
-
-
-Unicode characters including accented characters and emojis are suppored in Python 3. They can also be converted from unicode strings into bytes.
-
- ```python
- >>> '😃'
-'😃'
->>> print(_)
-😃
->>> '😃'.encode('utf-8')
-b'\xf0\x9f\x98\x83'
-```
-
-See my [Python Strings](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/python/strings/) cheatsheet for more info.
-
-
-## Other
-
-- [Emoji Screen](https://emojiscreen.com/) website. 
-    > A listing of movies, TV shows and musicals depicted through emojis. Click on the emojis to reveal the show or movie name!
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
