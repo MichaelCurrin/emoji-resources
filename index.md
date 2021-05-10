@@ -1,4 +1,4 @@
-# Emoji Resources
+# Emoji Resources 😄 📚
 > Find services, add-ons and actual emojis to help with all your emoji needs
 
 {% assign pages = site.pages | sort: 'name' %}
