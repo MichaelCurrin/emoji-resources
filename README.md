@@ -5,9 +5,19 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 
-Markdown files with info and links around emojis, especially for use in programming.
+A website info and links around emojis, especially for use in programming.
 
-## Website
+
+## Preview
+
+<div align="center">
+    <a href="https://michaelcurrin.github.io/emoji-resources/">
+        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+    </a>
+</div>
+
+
+## Explore the site
 
 <div align="center">
 
