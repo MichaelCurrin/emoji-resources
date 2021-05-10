@@ -1,4 +1,4 @@
-# Git Emoji Resources
+# Git
 
 
 ## Commit messages
@@ -13,11 +13,9 @@ You can also just insert GitHub emojis in your markdown or static site
 
 ### Gitmoji
 
-[Gitmoji site](https://gitmoji.carloscuesta.me/)
-
-[Gitmoji CLI](https://github.com/carloscuesta/gitmoji-cli)
-
-[Gitmoji changelog](https://github.com/frinyvonnick/gitmoji-changelog) - Generate changelog from semvar emoji commits.
+- [Gitmoji site](https://gitmoji.carloscuesta.me/)
+- [Gitmoji CLI](https://github.com/carloscuesta/gitmoji-cli)
+- [Gitmoji changelog](https://github.com/frinyvonnick/gitmoji-changelog) - Generate changelog from semvar emoji commits.
 
 ### Guides
 
@@ -53,11 +51,11 @@ Git emoji cheatsheets:
 
 While the Git emojis with format `:name:` and covered above render fine on plain GitHub markdown, some tools need a plugin to render emojis. 
 
-Docsify plugins
+Docsify plugins:
 
 - [Emoji](https://docsify.now.sh/en/plugins?id=emoji)
 
-Jekyll plugins 
+Jekyll plugins:
 
 - [jekyll/jemoji](https://github.com/jekyll/jemoji)
     - Available on [rubygems](https://rubygems.org/gems/jemoji/).
