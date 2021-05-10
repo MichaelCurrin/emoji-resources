@@ -9,7 +9,7 @@
 
 <ul>
 {% for p in pages %}
-{% unless page == p or page.name == 'style.css' %}
+{% unless page == p or p.name == 'style.css' %}
 <li>
     <a href="{{ p.url | relative_url }}">
         {{ p.title }}
