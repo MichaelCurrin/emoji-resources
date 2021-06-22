@@ -13,8 +13,7 @@
 
 ## Resources
 
-- [Conventional Commits](https://www.conventionalcommits.org/) homepage - to learn more on writing Conventional Commits messages. The _Summary_ section covers the prefixes used here.
-- [Type](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type) on Angular repo. This is linked from the Conventional Commits website as "Angular Convention" and explains what `build` etc. means.
+- [Conventinal Commits](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/other/conventional-commits.html) cheatsheet.
 - [Gitmoji](https://gitmoji.dev/) site - for a standard of using emojis in commits. That page is _very_ detailed and the emojis don't all map to Conventional Commit standard, so I won't try and cover them all here.
 
 
