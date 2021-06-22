@@ -2,6 +2,9 @@
 > View your Conventional Commit log messages with emojis added
 
 
+This page is about alias I came up with to prettify your commit log view to show emojis, without needing the commit messages to actually contain emojis or editing messages.
+
+
 ## Features
 
 - Run this tool as an alternative to `git log`, whenever you need to.
