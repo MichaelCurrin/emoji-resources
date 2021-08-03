@@ -107,11 +107,10 @@ Notes:
 
 If you want to test that without `git`:
 
-```sh
-echo 'perf: abc' | sed 's/feat:/✨ feat:/g
-s/perf:/⚡<fe0f> perf:/g
-```
-```
+```console
+$ echo 'perf: abc' | sed 's/feat:/✨ feat:/g ; s/perf:/⚡ perf:/g'
+✨ feat: abc
+$ echo 'perf: abc' | sed 's/feat:/✨ feat:/g ; s/perf:/⚡ perf:/g'
 ⚡️ perf: abc
 ```
 
