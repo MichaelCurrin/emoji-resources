@@ -26,7 +26,7 @@ This page is about alias I came up with to prettify your commit log view to show
 
 This guide expects you to write commit messages like these.
 
-```sh
+```
 docs: Update README.md
 fix: Rename variable
 ```
@@ -35,7 +35,7 @@ fix: Rename variable
 
 Then we'll use a command to turn the above into this:
 
-```sh
+```
 📝 docs: Update README.md
 🐛 fix: Rename variable
 ```
@@ -118,6 +118,8 @@ s/perf:/⚡<fe0f> perf:/g
 
 ## Set up an alias
 
+### Configure
+
 To make is easier to use the command above any time, you can add it to your git aliases in `~/.gitconfig`.
 
 Add to your git config under `[alias]` section.
@@ -149,12 +151,12 @@ Now set the emoji command as an alias too. This will use call `lol` as defined a
 
 Save the config.
 
+### Use alias
+
 Now you can use it anywhere in a git repo. You don't need to restart your terminal.
 
-```sh
-git emoji
-```
-```
+```console
+$ git emoji
 * a15457b Update development.md
 * 00e49b0 Create development.md
 * a400c64 ✨ feat: Update link layout
