@@ -34,9 +34,9 @@ e.g.
 
 - Bowtie
     - Rendered: :bowtie:
-    - Markdown:
+    - Markdown code:
         ```markdown
-        :bowtie
+        :bowtie:
         ```
 
 Git emoji cheatsheets:
@@ -61,6 +61,6 @@ Jekyll plugins:
     - Available on [rubygems](https://rubygems.org/gems/jemoji/).
     - Supported on GitHub Pages.
 - [emoji-for-jekyll](https://rubygems.org/gems/emoji_for_jekyll)
-    - Not on Github Pages supported list.
+    - Not on GitHub Pages supported list.
     - May not be kept up to date. The URL gets broken from a CDN. e.g. `https://github.global.ssl.fastly.net/images/icons/emoji/anchor.png`.
     - See emojis listed in [emoji.json](https://github.com/yihangho/emoji-for-jekyll/blob/master/lib/emoji.json).
