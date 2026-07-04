@@ -32,3 +32,8 @@ Then use as:
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 ```
+
+
+## More on emoji favicons
+
+See [How to Make an Emoji Favicon](https://logo2favicon.com/blog/how-to-make-an-emoji-favicon) guide, which covers the inline SVG data-URI method (including the Safari caveat) and links a free no-signup generator.
