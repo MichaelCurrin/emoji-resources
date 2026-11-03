@@ -33,6 +33,7 @@ This list is not curated, so I cannot guarantee the quality of these.
 - [EmojiSearch](https://emojisearch.com/)
 - [EmojiFinder](https://emojifinder.com/)
 - [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [EmojiDig](https://emojidig.com/)
 
 As far as I can tell, those all produce unicode emojis which you can copy and paste across platforms.
 
